@@ -1,0 +1,61 @@
+body {
+    padding-top:40px;
+    background:repeating-linear-gradient(25deg, #fff, #eee 50px);
+}
+
+h3 {
+    font-family:Century Gothic, sans-serif;
+    color: #006;
+    font-size:1.8em;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    text-align:center;
+    height:35%;
+}
+
+/* PHOTOBAR */
+
+.photobar div {
+    text-align:center;
+    border:1px solid #000;
+    border-radius: 15px;
+    box-shadow: inset -5px -5px 20px #000;
+    margin:5px;
+}
+.photobar a {
+    text-decoration:none;
+    color:#fff;
+    font-family:Century Gothic, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.photobar a:hover {
+    text-shadow: 1px 1px 5px #FC3;
+    text-decoration: none;
+}
+
+.news {
+    background-image:url(backgrounds/lighting-plot.jpg);
+    height:250px;
+}
+
+.jobs {
+    background-image:url(backgrounds/box-office.png);
+    height:250px;
+}
+.community {
+    background-image:url(backgrounds/tech.png);
+    height:250px;
+}
+
+/* FOOTER */
+.credits {
+    font-family: Century Gothic, sans-serif;
+    font-size: .8em;
+    color: #bbb;
+    text-align:center;
+}
+
