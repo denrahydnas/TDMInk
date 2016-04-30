@@ -1,61 +1,65 @@
 body {
     padding-top:40px;
-    background:repeating-linear-gradient(25deg, #fff, #eee 50px);
+    background-image: url(../img/space.png);
+    background-size:cover;
+    background-attachment:inherit;
+}
+
+h1, h3, a, p {
+    font-family:Courier, sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    font-size:6vw;
+    margin:40px 0;
 }
 
 h3 {
-    font-family:Century Gothic, sans-serif;
-    color: #006;
-    font-size:1.8em;
+    font-size:3vw;
+    margin:10px 0 50px 0;
+    text-align: center;
 }
 
-/* JUMBOTRON */
-.jumbotron{
-    text-align:center;
-    height:35%;
-}
-
-/* PHOTOBAR */
-
-.photobar div {
-    text-align:center;
-    border:1px solid #000;
-    border-radius: 15px;
-    box-shadow: inset -5px -5px 20px #000;
-    margin:5px;
-}
-.photobar a {
-    text-decoration:none;
-    color:#fff;
-    font-family:Century Gothic, sans-serif;
-    font-size: 1.5em;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.photobar a:hover {
-    text-shadow: 1px 1px 5px #FC3;
+a:hover {
+   color:#00A; 
     text-decoration: none;
 }
 
-.news {
-    background-image:url(backgrounds/lighting-plot.jpg);
-    height:250px;
+.featured {
+    font-family:Courier, sans-serif;
+    color: #FFF;
+    font-size:4vw;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top:5%;
+    margin-bottom: 10%;
+    padding:15px;
+    text-align: center;
+    position:relative;
+    z-index:1000;
 }
 
-.jobs {
-    background-image:url(backgrounds/box-office.png);
-    height:250px;
+.title {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
 }
-.community {
-    background-image:url(backgrounds/tech.png);
-    height:250px;
+
+.logo {
+    margin-top:8%;
+    position:relative;
+    z-index:1000;
 }
 
 /* FOOTER */
 .credits {
     font-family: Century Gothic, sans-serif;
-    font-size: .8em;
+    font-size: 1.2em;
     color: #bbb;
     text-align:center;
+    position:static;
+    bottom:0;
+    margin: 20px 0 0 0;
 }
 
