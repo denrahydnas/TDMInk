@@ -1,3 +1,18 @@
+/*
+Theme Name: TDMInkbasic
+Theme URI: https://wordpress.org/themes/TDMInkbasic/
+Author: SL9Design
+Author URI: https://SL9Design.com/
+Description: An original theme for TDM Ink, featuring a responsive design for blog posts and book promotion.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, fixed-layout, responsive-layout, accessibility-ready, custom-background, post-formats
+
+This is my first custom Wordpress theme. Feel free to make it your own.  
+*/
+
+
 body {
     padding-top:40px;
     background-image: url(../img/space.png);
@@ -73,4 +88,3 @@ a:hover {
     bottom:0;
     margin: 20px 0 0 0;
 }
-
